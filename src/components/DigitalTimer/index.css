@@ -1,0 +1,216 @@
+/* Write your CSS here */
+
+* {
+  margin: 0px;
+}
+
+.sub-btn {
+  font-size: 30px;
+  color: ' #1e293b';
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.score-btn {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: ' #1e293b';
+  font-weight: bold;
+  margin-bottom: 16px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-top: 16px;
+  background-color: #00d9f5;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.set-timer-add-sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .set-timer-add-sub-container {
+    display: flex;
+    margin-top: 35px;
+  }
+}
+.add-btn {
+  font-size: 26px;
+  color: ' #1e293b';
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.set-limit-para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: ' #1e293b';
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.reset-btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.reset-img {
+  height: 36px;
+  width: 36px;
+}
+.play-icon-container {
+  display: flex;
+}
+.reset-icon-container {
+  display: flex;
+  margin-left: 16px;
+}
+.start-restart-container {
+  display: flex;
+  margin-top: 20px;
+}
+.restart-para {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: '#0f172a';
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.plus-sub-num-container {
+  display: flex;
+}
+.start-btn {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.play-img {
+  height: 36px;
+  width: 36px;
+}
+
+.push-start-btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: '#0f172a';
+  font-weight: 600;
+  margin-left: 16px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #ffffff, #00d9f5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20%;
+}
+
+.timer-img-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 260px;
+  width: 330px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elapsed-time-container {
+  background-color: #ffffff;
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+  color: #0f172a;
+  text-align: center;
+  margin-bottom: 6%;
+}
+.timer-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 28px;
+  color: #00d9f5;
+}
+.running-para {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  color: #0f172a;
+  margin: 8px;
+}
+.digital-timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+  .digital-timer-container {
+    max-width: 1170px;
+    flex-direction: row;
+  }
+  .digital-heading {
+    font-size: 36px;
+  }
+  .running-para {
+    font-size: 18px;
+  }
+  .timer-heading {
+    font-size: 34px;
+  }
+  .elapsed-time-container {
+    width: 200px;
+    height: 200px;
+  }
+  .timer-img-container {
+    height: 500px;
+    width: 600px;
+  }
+  .bg-container {
+    background-image: linear-gradient(
+      to right,
+      #ffffff,
+      #cffcf1,
+      #defafe,
+      #00d9f5
+    );
+    padding-top: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+}
